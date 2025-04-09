@@ -76,43 +76,7 @@ export const ProfileFormContact = styled.div`
     }
 
     form{
-        input, textarea{
-            height: 50px;
-            padding: 8px 15px;
-            width: 100%;
-            border-radius: 5px;
-            color: var(--secondary);
-            font-size: 1rem;
-            letter-spacing: 0.1px;
-            margin-bottom: 10px;
-            outline: none;
-            border: 1px solid var(--gray-light);
-            resize: none;
-        }
-
-        textarea{
-            height: 150px;
-            width: 100%;
-        }
-
-        button{
-            width: 100%;
-            cursor: pointer;
-            display: inline-block;
-            text-align: center;
-            background-color: var(--blue);
-            line-height: 25px;
-            border: none;
-            color: var(--white);
-            font-size: 1rem;
-            font-weight: 600;
-            border-radius: 5px;
-            padding: 12px 20px;
-            transition: all 0.3s ease-in-out;
-
-            &:hover{
-                box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
-            }
-        }
+        display: flex;
+        flex-direction: column;
     }
 `
