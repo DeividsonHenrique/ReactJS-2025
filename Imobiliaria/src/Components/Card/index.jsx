@@ -1,5 +1,6 @@
 import { FaArrowRight, FaMapMarkerAlt } from "react-icons/fa";
 import { Container, Img, Description, Itens } from "./style";
+import { Link } from "react-router-dom";
 
 function Card() {
   return (
@@ -20,9 +21,9 @@ function Card() {
           </span>
           <span>R$ 2.400,00 / mês</span>
         </Itens>
-        <a href="#">
+        <Link to="/imovel">
           Detalhes <FaArrowRight />
-        </a>
+        </Link>
       </Description>
     </Container>
   );

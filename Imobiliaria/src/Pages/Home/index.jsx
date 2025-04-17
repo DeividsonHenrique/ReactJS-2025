@@ -1,6 +1,7 @@
 import { Fragment } from "react";
 import { Header, Wrapper } from "./style";
 import Card from "../../Components/Card";
+import Banner from "../../Components/Banner";
 
 function Home() {
   let cards = [];
@@ -10,6 +11,7 @@ function Home() {
   }
   return (
     <Fragment>
+      <Banner />
       <Header>
         <h2>Find the property of your dreams</h2>
       </Header>
