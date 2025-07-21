@@ -7,11 +7,6 @@ function index() {
         <Title>Jogos em destaque</Title>
         <Content>
             <Cards></Cards>
-            <Cards></Cards>
-            <Cards></Cards>
-            <Cards></Cards>
-            <Cards></Cards>
-            <Cards></Cards>
         </Content>
       </Container>
     </>

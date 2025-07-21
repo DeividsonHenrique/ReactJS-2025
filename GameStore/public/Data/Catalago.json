@@ -1,0 +1,53 @@
+{
+    "Itens": [
+        {
+            "id": 1,
+            "name": "Call of Duty Modern Warfare 2",
+            "image": "https://images6.alphacoders.com/131/thumb-1920-1314200.png",
+            "price": 100,
+            "realPrice": 50
+        },
+        {
+            "id": 2,
+            "name": "Call of Duty Modern Warfare 3",
+            "image": "https://images2.alphacoders.com/532/thumb-1920-532222.jpg",
+            "price": 200,
+            "realPrice": 100
+        },
+        {
+            "id": 3,
+            "name": "Call of Duty Black Ops 1",
+            "image": "https://picfiles.alphacoders.com/444/thumb-1920-444480.jpg",
+            "price": 300,
+            "realPrice": 150
+        },
+        {
+            "id": 4,
+            "name": "Forza Horizon 5",
+            "image": "https://images2.alphacoders.com/118/thumb-1920-1182375.jpg",
+            "price": 400,
+            "realPrice": 200
+        },
+        {
+            "id": 5,
+            "name": "Black Myth: Wukong",
+            "image": "https://images6.alphacoders.com/137/thumb-1920-1379254.jpg",
+            "price": 500,
+            "realPrice": 250
+        },
+        {
+            "id": 6,
+            "name": "Grand Theft Auto V",
+            "image": "https://wallpapers.com/images/high/gta-5-desktop-zbrfny56r4h2da20.webp",
+            "price": 600,
+            "realPrice": 300
+        },
+        {
+            "id": 7,
+            "name": "FC 2025",
+            "image": "https://4kwallpapers.com/images/walls/thumbs_3t/17732.jpg",
+            "price": 700,
+            "realPrice": 350
+        }
+    ]
+}

@@ -1,9 +1,17 @@
-import { Header } from "./style";
+import { Header, Menu } from "./style";
 
 function Head() {
   return (
     <>
-      <Header></Header>
+    <Header>
+      <Menu>
+        <ul>
+          <li>Home</li>
+          <li>Produtos</li>
+          <li>Contato</li>
+        </ul>
+      </Menu>
+      </Header>
     </>
   );
 }

@@ -4,17 +4,25 @@ export const Card = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: top;
     width: 350px;
-    height: 300px;
+    height: 250px;
     margin: 1rem;
-    
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 0.2rem;
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+        transform: scale(1.03);
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 1);
+    }
 `;
 
 export const Image = styled.div`
     width: 100%;
     height: 200px;
-    background: url('https://picfiles.alphacoders.com/444/thumb-1920-444480.jpg');
+    background: url(${(props) => props.src});
     background-size: cover;
     background-position: center;
     border-radius: 10px;
