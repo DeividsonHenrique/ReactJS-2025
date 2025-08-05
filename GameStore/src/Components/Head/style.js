@@ -23,6 +23,7 @@ export const Header = styled.header`
         box-shadow: inset 0px 0px 30px rgba(0, 0, 0, 1);
         background-color: rgba(0, 0, 0, 0.2);
     }
+        
 `;
 
 
